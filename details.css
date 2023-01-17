@@ -1,0 +1,1044 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;700&family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    background-color: #272631;
+}
+#profile{
+    position: absolute;
+    width: 348px;
+    height: 292px;
+    left: 40px;
+    top: 40px;
+    background-color: #46455a;
+    border-radius: 20px;
+}
+
+.foto{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    top: 50px;
+    right: 112px;
+
+    background: url(./recursos/foto11.jpeg);
+    border: 2px solid #00FF00;
+    border-radius: 100%;
+}
+
+.name{
+    position: absolute;
+    width: 236px;
+    height: 26px;
+    left:75px;
+    top: 200px;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 29px;
+    color:#837E9F;
+}
+
+.developer{
+    position: absolute;
+    width: 198px;
+    height: 17px;
+    left:100px;
+    top: 226px;
+    
+    font-family: 'Merriweather Sans';
+    color:#837E9F;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+#myproject{
+    position: absolute;
+    height: 86px;
+    width: 852px;
+    left: 448px;
+    top: 40px;
+    border-radius: 20px;
+    background-color: #46455a;
+}
+
+.myproject_text{
+    position: absolute;
+    width: 170px;
+    height: 26px;
+    left: 28px;
+    top: 32px;
+
+    color:#837E9F;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 25px;
+}
+
+.vejatodos{
+    position: absolute;
+    width: 171px;
+    height: 118px;
+    left: 728px;
+    top: 35px;
+
+    color:#837E9F;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+}
+
+#projeto1{
+    position: absolute; 
+    height: 186px;
+    width: 361px;
+    top: 157px;
+    left: 448px;
+    border-radius: 20px;
+    margin-right: 30px;
+    background-color: #46455a;
+}
+
+
+.conteudo-proj1{
+    position: absolute;
+    width: 90px;
+    height: 17px;
+    top:40px;
+    left:88px;    
+        
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 20px;
+
+    color: #837E9F;
+}
+
+.conteudo-projsub1{
+    position: absolute;
+    width: 421px;
+    height: 19px;
+    top:80px;
+    left:38px;    
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+
+color: #837E9F;
+}
+
+.box-dohtml{
+    position: absolute;
+    width: 92px;
+    height: 16px;
+    left: 60px;
+    top: 140px;
+
+}
+
+.ball-dohtml{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    
+
+    box-sizing: border-box;
+    background: #e77979;
+    border-radius: 100%;
+    border: 2px solid #837E9F;
+}
+
+.html{
+    position: absolute;
+    width: 69px;
+    height: 16px;
+    left: 20px;
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #837E9F;
+}
+
+.box-docss{
+    position: absolute;
+    width: 92px;
+    height: 16px;
+    left: 240px;
+    top: 140px;
+
+}
+
+.ball-docss{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    
+
+    box-sizing: border-box;
+    background: #79c8e7;
+    border-radius: 100%;
+    border: 2px solid #837E9F;
+}
+
+.css{
+    position: absolute;
+    width: 69px;
+    height: 16px;
+    left: 20px;
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #837E9F;
+}
+
+#projeto2{
+    position: absolute; 
+    height: 186px;
+    width: 451px;
+    top: 157px;
+    left: 848px;
+    border-radius: 20px;
+    margin-right: 30px;
+    background-color: #46455a;
+}
+
+
+.conteudo-proj2{
+    position: absolute;
+    width: 140px;
+    height: 17px;
+    top:40px;
+    left:88px;    
+    
+    font-family: 'Merriweather Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 20px;
+
+color: #837E9F;
+}
+
+.conteudo-projsub2{
+    position: absolute;
+    width: 421px;
+    height: 19px;
+    top:80px;
+    left:35px;    
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+color: #837E9F;
+}
+
+
+.box-dohtml1{
+    position: absolute;
+    width: 92px;
+    height: 16px;
+    left: 90px;
+    top: 140px;
+
+}
+
+.ball-dohtml1{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    
+
+    box-sizing: border-box;
+    background: #e77979;
+    border-radius: 100%;
+    border: 2px solid #837E9F;
+}
+
+.html1{
+    position: absolute;
+    width: 69px;
+    height: 16px;
+    left: 20px;
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #837E9F;
+}
+
+.box-docss1{
+    position: absolute;
+    width: 92px;
+    height: 16px;
+    left: 270px;
+    top: 140px;
+
+}
+
+.ball-docss1{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    
+
+    box-sizing: border-box;
+    background: #79c8e7;
+    border-radius: 100%;
+    border: 2px solid #837E9F;
+}
+
+.css1{
+    position: absolute;
+    width: 69px;
+    height: 16px;
+    left: 20px;
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #837E9F;
+}
+
+#recentpost{
+    position: absolute;
+    height: 86px;
+    width: 852px;
+    left: 448px;
+    top: 373px;
+    border-radius: 20px;
+    background-color: #46455a;
+
+}
+
+.post{
+    position: absolute;
+width: 140px;
+height: 26px;
+left: 38px;
+top: 30px;
+
+
+
+    font-family: 'Merriweather Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 25px;
+
+color: #837E9F;
+}
+
+#description{
+    position: absolute;
+    height: 201px;
+    width: 852px;
+    left: 448px;
+    top: 489px;
+    border-radius: 20px;
+    background-color: #56556e;
+}
+
+.box-description{
+    position: absolute;
+    width: 800px;
+    height: 180px;
+    left: 26px;
+    top: 9px;
+
+}
+
+.description1{
+    position: absolute;
+    width: 612px;
+    height: 31px;
+    left: 240px;;
+    top: 9px;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 23px;
+
+    color: #837E9F;
+}
+
+.description2{
+    position: absolute;
+width: 612px;
+height: 31px;
+left: 240px;
+top: 59px;
+
+font-family: 'Merriweather Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 23px;
+
+color: #837E9F;
+}
+
+.description3{
+    position: absolute;
+width: 612px;
+height: 31px;
+left: 240px;
+top: 99px;
+
+font-family: 'Merriweather Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 23px;
+
+color: #837E9F;
+}
+
+.box-description-sub{
+    position: absolute;
+    width: 446px;
+    height: 21px;
+    left: 240px;
+    top: 153px;
+
+}
+
+.description-sub-1{
+    position: absolute;
+    width: 110px;
+    height: 21px;
+    left: 0px;
+    top: 2px;
+
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #70b3a6;
+}
+
+.description-sub-2{
+    position: absolute;
+    width: 110px;
+    height: 21px;
+    left: 70px;
+    top: 2px;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #70b3a6;
+}
+
+.description-sub-3{
+    position: absolute;
+    width: 110px;
+    height: 21px;
+    left: 130px;
+    top: 2px;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #70b3a6;
+}
+
+.description-img{
+    position: absolute;
+    width: 138px;
+    height: 138px;
+    left: 60px;
+    top: 23px;
+    
+    background: url(./recursos/foto11.jpeg);
+    border: 2px solid rgb(23, 240, 23);
+    border-radius: 100%;
+
+}
+
+#links{
+    position: absolute;
+    width: 348px;
+    height: 292px;
+    left: 40px;
+    top: 362px;
+    background-color: #46455a;
+    border-radius: 20px;
+
+    
+}
+
+.informacoes{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    left: 40px;
+    top: 20px;
+
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 20px;
+
+    color: #837E9F;
+}
+
+.conteudo-loc{
+    position: absolute;
+    width: 290px;
+    height: 17px;
+    left:40px;    
+    top:75px;
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+color: #837E9F;
+}
+
+.conteudo-trab{
+    position: absolute;
+    width: 300px;
+    height: 16px;
+    left: 40px;
+    top: 110px;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #837E9F;
+}
+
+.conteudo-infgithub{
+    position: absolute;
+    width: 200px;
+    height: 16px;
+    left: 40px;
+    top: 145px;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #837E9F;
+}
+
+.conteudo-linkdin{
+    position: absolute;
+    width: 310px;
+    height: 16px;
+    left: 40px;
+    top: 180px;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #837E9F;
+}
+
+.conteudo-twitter{
+    position: absolute;
+    width: 270px;
+    height: 16px;
+    left: 40px;
+    top: 215px;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #837E9F;
+}
+
+.conteudo-email{
+    position: absolute;
+    width: 270px;
+    height: 16px;
+    left: 40px;
+    top: 245px;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #837E9F;
+}
+
+#tecnologias{
+    position: absolute;
+    width: 348px;
+    height: 208px;
+    left: 40px;
+    top: 683px;
+    background-color: #46455a;
+    border-radius: 20px;
+}
+
+.conteudo-tec{
+    position: absolute;
+    width: 121px;
+    height: 26px;
+    left: 40px;
+    top: 20px;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 25px;
+
+    color: #837E9F;
+}
+
+.box-html{
+    position: absolute;
+    width: 86px;
+    height: 24px;
+    left: 20px;
+    top: 70px;
+
+    border-radius:20px;
+    background-color:#CB92B1;
+}
+
+.conteudo-html{
+    position: absolute;
+    width: 86px;
+    height: 11px;
+    top:6px;
+    left:0px;
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 13px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.box-css{
+    position: absolute;
+width: 86px;
+height: 24px;
+left: 130px;
+top: 70px;
+
+border-radius:20px;
+background-color: #CB92B1;
+}
+
+.conteudo-css{
+    position: absolute;
+    width: 86px;
+    height: 11px;
+    top:6px;
+    left:0px;
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 13px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+
+.box-javascript{
+    position: absolute;
+width: 86px;
+height: 24px;
+left: 240px;
+top: 70px;
+
+border-radius:20px;
+background-color: #CB92B1;
+}
+
+.conteudo-java{
+    position: absolute;
+    width: 86px;
+    height: 11px;
+    top:6px;
+    left:0px;
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 13px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+
+.box-git{
+    position: absolute;
+width: 86px;
+height: 24px;
+left: 20px;
+top: 110px;
+
+border-radius:20px;
+background-color: #CB92B1;
+}
+
+.conteudo-git{
+    position: absolute;
+    width: 86px;
+    height: 11px;
+    top:6px;
+    left:0px;
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 13px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+
+.box-github{
+    position: absolute;
+width: 86px;
+height: 24px;
+left: 130px;
+top: 110px;
+
+border-radius:20px;
+background-color: #CB92B1;
+}
+
+.conteudo-github{
+    position: absolute;
+    width: 86px;
+    height: 11px;
+    top:6px;
+    left:0px;
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 13px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+
+.box-sqlite{
+    position: absolute;
+width: 86px;
+height: 24px;
+left: 240px;
+top: 110px;
+
+border-radius:20px;
+background-color: #CB92B1;
+}
+
+.conteudo-sqlite{
+    position: absolute;
+    width: 86px;
+    height: 11px;
+    top:6px;
+    left:0px;
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 13px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+
+.box-estudando3{
+    position: absolute;
+width: 86px;
+height: 24px;
+left: 20px;
+top: 150px;
+
+border-radius:20px;
+font-size: 15px;
+background-color: #CB92B1;
+}
+
+.conteudo-estudando3{
+    position: absolute;
+    width: 86px;
+    height: 11px;
+    top:6px;
+    left:0px;
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+
+.box-estudando4{
+    position: absolute;
+width: 86px;
+height: 24px;
+left: 130px;
+top: 150px;
+
+border-radius:20px;
+font-size: 15px;
+background-color: #CB92B1;
+}
+
+.conteudo-estudando4{
+    position: absolute;
+    width: 86px;
+    height: 11px;
+    top:6px;
+    left:0px;
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+
+.box-estudando5{
+    position: absolute;
+width: 86px;
+height: 24px;
+left: 240px;
+top: 150px;
+
+border-radius:20px;
+font-size: 15px;
+background-color: #CB92B1;
+}
+
+.conteudo-estudando5{
+    position: absolute;
+    width: 86px;
+    height: 27px;
+    top:6px;
+    left:0px;
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+#experiencia{
+    position: absolute;
+    width: 348px;
+    height: 149px;
+    left: 40px;
+    top: 918px;
+    background-color: #46455a;
+    border-radius: 20px;
+}
+
+.conteudo-exp{
+    position: absolute;
+    width: 141px;
+    height: 26px;
+    left: 40px;
+    top: 20px;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 25px;
+    
+    color: #837E9F;
+}
+
+.trabalhos{
+    position: absolute;
+    width: 205px;
+    height: 243px;
+    left: 80px;
+    top: 60px;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 18px;
+
+    color: #837E9F;
+}
+
+#educacao{
+    position: absolute;
+    width: 348px;
+    height: 239px;
+    left: 40px;
+    top: 1095px;
+    background-color: #46455a;
+    border-radius: 20px;
+}
+
+.conteudo-edu{
+    position: absolute;
+    width: 141px;
+    height: 26px;
+    left: 40px;
+    top:20px;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 25px;
+
+    color: #837E9F; 
+}
+
+.faculdade{
+    position: absolute;
+    width: 256px;
+    height: 90px;
+    left: 80px;
+    top:55px;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 18px;
+    
+    color: #837E9F;
+}
+
+.rocket{
+    position: absolute;
+    width: 256px;
+    height: 90px;
+    left: 80px;
+    top:150px;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 18px;
+    
+    color: #837E9F;
+}
+
+#rodape{
+    position: absolute;
+    width: 310px;
+    height: 30px;
+    left: 550px;
+    top: 1428px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    font-family: 'Merriweather Sans';
+    color: #837E9F;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+
+   
+}
